@@ -98,6 +98,15 @@
 		</header>
 		{% endif %}
 
+		<!-- Kolom Cari Baru -->
+		<script>
+			function search(string){
+        		window.find(string);
+        		}
+		</script>
+        	<input placeholder="Mau Cari Apa?" type="text" id="Cari">
+        	<input type="button" value="Go" onclick="search(document.getElementById('search').value)">
+			
 		<!-- https://github.com/christian-fei/Simple-Jekyll-Search -->
 		<!-- <section id="search">
 			<form spellcheck="false" autocomplete="off" class="flex mx-6 mt-8">

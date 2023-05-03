@@ -50,6 +50,10 @@ footer {
  }
 }
 
+.focus\:border-emerald-500:focus {
+	border-color: red;
+}
+
 .locked:before {
  content: '';
  background: rgba(0,0,0,.75);

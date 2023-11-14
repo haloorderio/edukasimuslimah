@@ -150,7 +150,7 @@
 							<b>⭐ PP di IG @Edukasi.Muslimah ⭐</b>
 						</a>
 						<a href="https://lynk.id/berceritadisini/s/OkMDlPA" target="_blank" rel="noopener" class="bg-emerald-500 hover:bg-emerald-600 text-white block py-3 px-4 rounded-lg w-full text-center mt-4" style="color:yellow">
-							<blink><b>💖 Support IG @Edukasi.Muslimah 💖</b></blink>
+							<span class="blink"><b>💖 Support IG @Edukasi.Muslimah 💖</b></span>
 						</a>
 						<a href="https://orderio.id/kelasinstagram" target="_blank" rel="noopener" class="bg-emerald-500 hover:bg-emerald-600 text-white block py-3 px-4 rounded-lg w-full text-center mt-4">
 							Cara Dapetin 10K Follower Instagram [GRATIS]
@@ -192,6 +192,23 @@
 	</div>
 </div>
 
+<style>
+       .blink {
+                  animation: blink-animation 1s steps(5, start) infinite;
+                  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+                }
+                @keyframes blink-animation {
+                  to {
+                    visibility: hidden;
+                  }
+                }
+                @-webkit-keyframes blink-animation {
+                  to {
+                    visibility: hidden;
+                  }
+                }
+</style>	
+	
 <slot>
 	<script src="{{ site.url }}/assets/js/main.min.js?v={{ site.assets }}"></script>
 	{% include analytics.html %}
